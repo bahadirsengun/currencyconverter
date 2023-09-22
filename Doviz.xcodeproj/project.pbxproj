@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EEF7CAC2ABD084D002631A6 /* DovizAppUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CAB2ABD084D002631A6 /* DovizAppUIApp.swift */; };
+		8EEF7CAE2ABD084D002631A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CAD2ABD084D002631A6 /* ContentView.swift */; };
+		8EEF7CB02ABD084F002631A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF7CAF2ABD084F002631A6 /* Assets.xcassets */; };
+		8EEF7CB32ABD084F002631A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF7CB22ABD084F002631A6 /* Preview Assets.xcassets */; };
+		8EEF7CB52ABD084F002631A6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CB42ABD084F002631A6 /* Persistence.swift */; };
+		8EEF7CB82ABD084F002631A6 /* DovizAppUI.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CB62ABD084F002631A6 /* DovizAppUI.xcdatamodeld */; };
+		8EEF7CC22ABD084F002631A6 /* DovizAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CC12ABD084F002631A6 /* DovizAppUITests.swift */; };
+		8EEF7CCC2ABD084F002631A6 /* DovizAppUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CCB2ABD084F002631A6 /* DovizAppUIUITests.swift */; };
+		8EEF7CCE2ABD084F002631A6 /* DovizAppUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CCD2ABD084F002631A6 /* DovizAppUIUITestsLaunchTests.swift */; };
+		8EEF7CDB2ABD0B06002631A6 /* döviz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CDA2ABD0B06002631A6 /* döviz.swift */; };
+		8EEF7CDD2ABD0CF8002631A6 /* CurrencyConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEF7CDC2ABD0CF8002631A6 /* CurrencyConverter.swift */; };
+		8EEF7CDF2ABD0E2F002631A6 /* doviz.json in Resources */ = {isa = PBXBuildFile; fileRef = 8EEF7CDE2ABD0E2F002631A6 /* doviz.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EEF7CBE2ABD084F002631A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EEF7CA02ABD084D002631A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEF7CA72ABD084D002631A6;
+			remoteInfo = DovizAppUI;
+		};
+		8EEF7CC82ABD084F002631A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EEF7CA02ABD084D002631A6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EEF7CA72ABD084D002631A6;
+			remoteInfo = DovizAppUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EEF7CA82ABD084D002631A6 /* DovizAppUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DovizAppUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF7CAB2ABD084D002631A6 /* DovizAppUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DovizAppUIApp.swift; sourceTree = "<group>"; };
+		8EEF7CAD2ABD084D002631A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8EEF7CAF2ABD084F002631A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EEF7CB22ABD084F002631A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8EEF7CB42ABD084F002631A6 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		8EEF7CB72ABD084F002631A6 /* DovizAppUI.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DovizAppUI.xcdatamodel; sourceTree = "<group>"; };
+		8EEF7CBD2ABD084F002631A6 /* DovizAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DovizAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF7CC12ABD084F002631A6 /* DovizAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DovizAppUITests.swift; sourceTree = "<group>"; };
+		8EEF7CC72ABD084F002631A6 /* DovizAppUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DovizAppUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EEF7CCB2ABD084F002631A6 /* DovizAppUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DovizAppUIUITests.swift; sourceTree = "<group>"; };
+		8EEF7CCD2ABD084F002631A6 /* DovizAppUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DovizAppUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8EEF7CDA2ABD0B06002631A6 /* döviz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "döviz.swift"; sourceTree = "<group>"; };
+		8EEF7CDC2ABD0CF8002631A6 /* CurrencyConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyConverter.swift; sourceTree = "<group>"; };
+		8EEF7CDE2ABD0E2F002631A6 /* doviz.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = doviz.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EEF7CA52ABD084D002631A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF7CBA2ABD084F002631A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF7CC42ABD084F002631A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EEF7C9F2ABD084D002631A6 = {
+			isa = PBXGroup;
+			children = (
+				8EEF7CAA2ABD084D002631A6 /* DovizAppUI */,
+				8EEF7CC02ABD084F002631A6 /* DovizAppUITests */,
+				8EEF7CCA2ABD084F002631A6 /* DovizAppUIUITests */,
+				8EEF7CA92ABD084D002631A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EEF7CA92ABD084D002631A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF7CA82ABD084D002631A6 /* DovizAppUI.app */,
+				8EEF7CBD2ABD084F002631A6 /* DovizAppUITests.xctest */,
+				8EEF7CC72ABD084F002631A6 /* DovizAppUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EEF7CAA2ABD084D002631A6 /* DovizAppUI */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF7CDE2ABD0E2F002631A6 /* doviz.json */,
+				8EEF7CAB2ABD084D002631A6 /* DovizAppUIApp.swift */,
+				8EEF7CAD2ABD084D002631A6 /* ContentView.swift */,
+				8EEF7CDC2ABD0CF8002631A6 /* CurrencyConverter.swift */,
+				8EEF7CDA2ABD0B06002631A6 /* döviz.swift */,
+				8EEF7CAF2ABD084F002631A6 /* Assets.xcassets */,
+				8EEF7CB42ABD084F002631A6 /* Persistence.swift */,
+				8EEF7CB62ABD084F002631A6 /* DovizAppUI.xcdatamodeld */,
+				8EEF7CB12ABD084F002631A6 /* Preview Content */,
+			);
+			path = DovizAppUI;
+			sourceTree = "<group>";
+		};
+		8EEF7CB12ABD084F002631A6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF7CB22ABD084F002631A6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8EEF7CC02ABD084F002631A6 /* DovizAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF7CC12ABD084F002631A6 /* DovizAppUITests.swift */,
+			);
+			path = DovizAppUITests;
+			sourceTree = "<group>";
+		};
+		8EEF7CCA2ABD084F002631A6 /* DovizAppUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8EEF7CCB2ABD084F002631A6 /* DovizAppUIUITests.swift */,
+				8EEF7CCD2ABD084F002631A6 /* DovizAppUIUITestsLaunchTests.swift */,
+			);
+			path = DovizAppUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EEF7CA72ABD084D002631A6 /* DovizAppUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF7CD12ABD084F002631A6 /* Build configuration list for PBXNativeTarget "DovizAppUI" */;
+			buildPhases = (
+				8EEF7CA42ABD084D002631A6 /* Sources */,
+				8EEF7CA52ABD084D002631A6 /* Frameworks */,
+				8EEF7CA62ABD084D002631A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DovizAppUI;
+			productName = DovizAppUI;
+			productReference = 8EEF7CA82ABD084D002631A6 /* DovizAppUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EEF7CBC2ABD084F002631A6 /* DovizAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF7CD42ABD084F002631A6 /* Build configuration list for PBXNativeTarget "DovizAppUITests" */;
+			buildPhases = (
+				8EEF7CB92ABD084F002631A6 /* Sources */,
+				8EEF7CBA2ABD084F002631A6 /* Frameworks */,
+				8EEF7CBB2ABD084F002631A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EEF7CBF2ABD084F002631A6 /* PBXTargetDependency */,
+			);
+			name = DovizAppUITests;
+			productName = DovizAppUITests;
+			productReference = 8EEF7CBD2ABD084F002631A6 /* DovizAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EEF7CC62ABD084F002631A6 /* DovizAppUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EEF7CD72ABD084F002631A6 /* Build configuration list for PBXNativeTarget "DovizAppUIUITests" */;
+			buildPhases = (
+				8EEF7CC32ABD084F002631A6 /* Sources */,
+				8EEF7CC42ABD084F002631A6 /* Frameworks */,
+				8EEF7CC52ABD084F002631A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EEF7CC92ABD084F002631A6 /* PBXTargetDependency */,
+			);
+			name = DovizAppUIUITests;
+			productName = DovizAppUIUITests;
+			productReference = 8EEF7CC72ABD084F002631A6 /* DovizAppUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EEF7CA02ABD084D002631A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8EEF7CA72ABD084D002631A6 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					8EEF7CBC2ABD084F002631A6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8EEF7CA72ABD084D002631A6;
+					};
+					8EEF7CC62ABD084F002631A6 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 8EEF7CA72ABD084D002631A6;
+					};
+				};
+			};
+			buildConfigurationList = 8EEF7CA32ABD084D002631A6 /* Build configuration list for PBXProject "Doviz" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EEF7C9F2ABD084D002631A6;
+			productRefGroup = 8EEF7CA92ABD084D002631A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EEF7CA72ABD084D002631A6 /* DovizAppUI */,
+				8EEF7CBC2ABD084F002631A6 /* DovizAppUITests */,
+				8EEF7CC62ABD084F002631A6 /* DovizAppUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EEF7CA62ABD084D002631A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF7CB32ABD084F002631A6 /* Preview Assets.xcassets in Resources */,
+				8EEF7CB02ABD084F002631A6 /* Assets.xcassets in Resources */,
+				8EEF7CDF2ABD0E2F002631A6 /* doviz.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF7CBB2ABD084F002631A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF7CC52ABD084F002631A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EEF7CA42ABD084D002631A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF7CB52ABD084F002631A6 /* Persistence.swift in Sources */,
+				8EEF7CAE2ABD084D002631A6 /* ContentView.swift in Sources */,
+				8EEF7CB82ABD084F002631A6 /* DovizAppUI.xcdatamodeld in Sources */,
+				8EEF7CDD2ABD0CF8002631A6 /* CurrencyConverter.swift in Sources */,
+				8EEF7CAC2ABD084D002631A6 /* DovizAppUIApp.swift in Sources */,
+				8EEF7CDB2ABD0B06002631A6 /* döviz.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF7CB92ABD084F002631A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF7CC22ABD084F002631A6 /* DovizAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEF7CC32ABD084F002631A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EEF7CCC2ABD084F002631A6 /* DovizAppUIUITests.swift in Sources */,
+				8EEF7CCE2ABD084F002631A6 /* DovizAppUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EEF7CBF2ABD084F002631A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EEF7CA72ABD084D002631A6 /* DovizAppUI */;
+			targetProxy = 8EEF7CBE2ABD084F002631A6 /* PBXContainerItemProxy */;
+		};
+		8EEF7CC92ABD084F002631A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EEF7CA72ABD084D002631A6 /* DovizAppUI */;
+			targetProxy = 8EEF7CC82ABD084F002631A6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EEF7CCF2ABD084F002631A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EEF7CD02ABD084F002631A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EEF7CD22ABD084F002631A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DovizAppUI/Preview Content\"";
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Döviz Çevirici";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.DovizAppUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8EEF7CD32ABD084F002631A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DovizAppUI/Preview Content\"";
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Döviz Çevirici";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.DovizAppUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8EEF7CD52ABD084F002631A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.DovizAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DovizAppUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DovizAppUI";
+			};
+			name = Debug;
+		};
+		8EEF7CD62ABD084F002631A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.DovizAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DovizAppUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DovizAppUI";
+			};
+			name = Release;
+		};
+		8EEF7CD82ABD084F002631A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.DovizAppUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DovizAppUI;
+			};
+			name = Debug;
+		};
+		8EEF7CD92ABD084F002631A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TFALV8UYMA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sengun.DovizAppUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DovizAppUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EEF7CA32ABD084D002631A6 /* Build configuration list for PBXProject "Doviz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF7CCF2ABD084F002631A6 /* Debug */,
+				8EEF7CD02ABD084F002631A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF7CD12ABD084F002631A6 /* Build configuration list for PBXNativeTarget "DovizAppUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF7CD22ABD084F002631A6 /* Debug */,
+				8EEF7CD32ABD084F002631A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF7CD42ABD084F002631A6 /* Build configuration list for PBXNativeTarget "DovizAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF7CD52ABD084F002631A6 /* Debug */,
+				8EEF7CD62ABD084F002631A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EEF7CD72ABD084F002631A6 /* Build configuration list for PBXNativeTarget "DovizAppUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EEF7CD82ABD084F002631A6 /* Debug */,
+				8EEF7CD92ABD084F002631A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8EEF7CB62ABD084F002631A6 /* DovizAppUI.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8EEF7CB72ABD084F002631A6 /* DovizAppUI.xcdatamodel */,
+			);
+			currentVersion = 8EEF7CB72ABD084F002631A6 /* DovizAppUI.xcdatamodel */;
+			path = DovizAppUI.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8EEF7CA02ABD084D002631A6 /* Project object */;
+}
